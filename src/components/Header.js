@@ -13,10 +13,11 @@ const Header = (props) => {
   return (
     <header>
       {filteredParticipants.map((personOnline) => {
-       return <> 
-       <img src={personOnline.avatar} /> 
+       return <div className="headerOnline">  
        <p>{personOnline.username}</p>
-       </>
+       <img src={personOnline.avatar}  key={personOnline.username} /> 
+       
+       </div>
       })}
     </header>
   );
