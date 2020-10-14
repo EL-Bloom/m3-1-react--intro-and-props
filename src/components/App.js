@@ -3,7 +3,8 @@ import React from "react";
 import Header from "./Header";
 import ChatStream from "./ChatStream";
 import Footer from "./Footer";
-import Avatar from "./Avatar"; 
+import Avatar from "./Avatar";  
+
 
 
 import "./App.css";
@@ -14,7 +15,8 @@ function App(props) {
     <div className="wrapper">
       <Header
         participants={props.conversation.participants}
-        currentUser={props.currentUser}
+        currentUser={props.currentUser} 
+        
       />
       <ChatStream
         messages={props.conversation.messages}
