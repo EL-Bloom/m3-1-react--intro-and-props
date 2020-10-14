@@ -1,0 +1,51 @@
+.chatMessage { 
+    display:flex;
+    
+    
+}   
+.avatar { 
+    width: 50px; 
+    border-radius: 30px;  
+    margin: 0 auto;
+    margin-right:10px; 
+    margin-bottom: 20px;
+    /* margin:10px; 
+    margin-top:30px; */
+} 
+.chatContent { 
+
+margin-top:-10px;
+
+}
+.messageSent { 
+     height:50px; 
+   
+}  
+.textMessage {  
+    color: #000; 
+    background-color: #e9e9eb;  
+    border-radius: 10px;  
+    height:30px; 
+    padding:5px; 
+
+}
+.textMessageReceived { 
+    color:#FFF; 
+    background-color: #1185f7; 
+    border-radius: 10px;  
+    /* height:50px;  */
+    padding:5px; 
+    max-width:400px; 
+     
+
+}
+
+/*
+  The current user's messages should have:
+  - a text color of #FFF
+  - a background color of #1185f7
+
+  Other participant's messages should have:
+  - a text color of #000
+  - a background color of #e9e9eb
+*/

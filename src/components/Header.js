@@ -3,7 +3,7 @@ import React from 'react';
 import './Header.css';
 
 const Header = (props) => {
-  return <header>{/* Your code here! */}</header>;
+  return <header><div>{props.Avatar}</div></header>;
 };
 
 export default Header;
